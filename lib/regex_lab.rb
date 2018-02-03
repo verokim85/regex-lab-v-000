@@ -1,5 +1,5 @@
 def starts_with_a_vowel?(word)
-  if word.scan(/\b[aeoiu]/)
+  if word.scan(/\b[aeoiu]/) || word.scan(/\b[AEIOU]/)
     return true
   else
     false
