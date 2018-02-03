@@ -1,10 +1,6 @@
 def starts_with_a_vowel?(word)
   if word.scan(/\b[aeoiu]/)
     return true
-  elsif word.scan.upcase(/\b[^aeoiu]/)
-    false
-  elsif word.scan(/\b[^aeoiu]/)
-    false
   end
 end
 
