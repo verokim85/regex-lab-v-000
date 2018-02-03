@@ -5,7 +5,7 @@ def starts_with_a_vowel?(word)
   else
     false
   # elsif word.scan(/\A[bcdfghjklmnpqrstvwxyz]/)
-
+end
   end
 end
 
